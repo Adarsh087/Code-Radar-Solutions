@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <math.h>
+
 int main(){
     int a,b;
-    
+    b = a * a;
     scanf("%d",&a);
-    printf("Area: %d",3.14* pow(a,2));
+    printf("Area: %d",3.14*b);
     return 0;
 }
